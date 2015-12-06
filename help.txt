@@ -1,0 +1,2 @@
+コントローラー作成
+rails generate controller コントローラ名

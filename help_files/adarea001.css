@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* 広告右上用CSS */
+
+body{
+margin:0;
+padding:0;
+}
+
+div{
+margin:0;
+padding:0;
+}
+
+p{
+margin:0;
+padding:0;
+}
+
+img{
+margin0;
+border-width:0;
+vertical-align:bottom;
+}
+
+#adzentai{
+width:320px;
+height:519px;
+}
+
+div.adin_left{
+width:156px;
+height:156px;
+margin:0 0 4px 0;
+float:left;
+background-color:#ffffff;
+border:1px solid #afafaf;
+}
+
+div.adin_right{
+width:156px;
+height:156px;
+margin:0 0 4px 4px;
+float:left;
+background-color:#ffffff;
+border:1px solid #afafaf;
+}
+
+div.adblock{
+margin:3px;
+}
+
+#adinfo{
+font-size:12px;
+margin:10px 0 0 0;
+}
+
+#adinfo a:link{color:#003399;}
+#adinfo a:visited{color:#003399;}
+#adinfo a:hover, a:active{color:#ff0000;}

@@ -1,2 +1,29 @@
-<h1>Users#index</h1>
-<p>Find me in app/views/users/index.html.erb</p>
+<div class="site">
+  <h1><a href="#">IOT Test with MQTT</a></h1>
+  <p>IOT test site by using MQTT<p>
+</div>
+
+<div class="menu">
+  <nav class="menu">
+  <ul>
+  <li><a href="#">Top</a></li>
+  <li><a href="#">Setup</a></li>
+  <li><a href="#">Link</a></li>
+  <ul>
+  </nav>
+</div>
+
+<div class="main_console">
+<% form_for(@led) do |f| %>
+  <% f.check_box(:chk, {:checked=>ture }) %>
+<% end %>
+</div>
+
+<div class="ajax_res">
+
+</div>
+
+
+<div class="copyright">
+  <p>Created by iot.dreamhosters.com</p>
+</div>

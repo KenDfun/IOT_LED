@@ -1,0 +1,2 @@
+class LedController < ApplicationController
+end
